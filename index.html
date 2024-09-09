@@ -3,16 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Incluye el archivo de Tailwind CSS desde la CDN -->
     <script src="http://cdn.tailwindcss.com"></script>
+    <!-- Vincula un archivo CSS personalizado de Tailwind -->
     <link rel="stylesheet" href="./tailwind.css" />
     <title>Tailwind CSS</title>
   </head>
   <body class="bg-slate-100">
+    <!-- Cabecera del sitio web -->
     <header class="bg-white px-6 shadow">
+      <!-- Contenedor principal de la cabecera -->
       <div class="flex h-16 items-center justify-between max-w-6xl mx-auto">
+        <!-- Botón para menú desplegable en pantallas pequeñas -->
         <button
           class="rounded p-1 -ml-1 text-slate-500 transition-colors hover:bg-sky-500 hover:text-slate-100 focus:ring-2 focus:ring-slate-200"
         >
+          <!-- Icono del menú-->
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -28,13 +34,15 @@
             />
           </svg>
         </button>
+        <!-- Navegación y enlaces -->
         <div class="flex -mr-4 items-center">
+          <!-- Icono de un enlace animado que rota al pasar el ratón -->
           <a class="text-sky-500 hover:rotate-6 duration-200" href="#"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              stroke-width="2.5"
               stroke="currentColor"
               class="h-8 w-8"
             >
@@ -45,6 +53,7 @@
               />
             </svg>
           </a>
+          <!-- Enlaces de navegación principales (visible solo en pantallas más grandes) -->
           <div class="space-x-8 ml-8 hidden md:flex">
             <a class="px-3 py-2 text-sky-500" href="#">Home</a>
             <a
@@ -64,7 +73,9 @@
             >
           </div>
         </div>
+        <!-- Iconos de configuraciones y usuario -->
         <div class="flex">
+          <!-- Botón de configuración (icono de engranaje) -->
           <button
             class="rounded-full text-slate-500 transition-colors hover:text-sky-500 focus:ring-2 focus:ring-slate-200 focus:ring-offset-1"
           >
@@ -83,6 +94,7 @@
               />
             </svg>
           </button>
+          <!-- Botón de perfil del usuario con un avatar -->
           <button
             class="ml-4 rounded-full text-slate-500 transition-colors hover:text-sky-500 focus:ring-2 focus:ring-offset-1 focus:ring-slate-200"
           >
@@ -94,6 +106,7 @@
           </button>
         </div>
       </div>
+      <!-- Menú desplegable en pantallas pequeñas -->
       <div class="hidden space-y-1 border-t pb-3 pt-2 md:hidden">
         <a
           href="#"
@@ -121,7 +134,9 @@
         </a>
       </div>
     </header>
+    <!-- Contenido principal -->
     <main class="p-4">
+      <!-- Contenedor principal para organizar los articulos -->
       <div
         class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3"
       >
@@ -271,13 +286,16 @@
         </article>
       </div>
     </main>
+    <!-- Contenedor principal del pie de página -->
     <footer class="py-10">
       <div
         class="flex flex-col items-center space-y-4 md-flex-row md:justify-between max-w-6xl mx-auto md:space-y-0"
       >
+        <!-- Texto centrado que muestra el aviso de derechos reservados -->
         <div class="text-cente text-sm text-slate-600">
           2023 Aprendible All Rights Reserved
         </div>
+        <!-- Contenedor para los iconos de redes sociales -->
         <div class="flex space-x-4">
           <a href="#">
             <svg
