@@ -14,7 +14,7 @@
     <header class="bg-white px-6 shadow">
       <!-- Contenedor principal de la cabecera -->
       <div class="flex h-16 items-center justify-between max-w-6xl mx-auto">
-        <!-- Botón para menú desplegable en pantallas pequeñas -->
+        <!-- Botón de menú -->
         <button
           class="rounded p-1 -ml-1 text-slate-500 transition-colors hover:bg-sky-500 hover:text-slate-100 focus:ring-2 focus:ring-slate-200"
         >
@@ -107,7 +107,7 @@
         </div>
       </div>
       <!-- Menú desplegable en pantallas pequeñas -->
-      <div class="hidden space-y-1 border-t pb-3 pt-2 md:hidden">
+      <div class="space-y-1 border-t pb-3 pt-2 md:hidden">
         <a
           href="#"
           class="block bg-sky-500 text-white px-3 py-2 rounded-md transition-color"
@@ -138,84 +138,14 @@
     <main class="p-4">
       <!-- Contenedor principal para organizar los articulos -->
       <div
-        class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3"
+        class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3 drop-shadow-2xl"
       >
-        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+        <article
+          class="bg-white shadow rounded overflow-hidden flex flex-col hover:drop-shadow-lg hover:-translate-y-1"
+        >
           <div class="h-52 flex-1">
             <img
-              class="h-full w-full object-cover object-center"
-              src="/Imagenes/article-5.jpg"
-              alt="Desarrollo de una API con Laravel siguiendo la especificación
-            JSON:API"
-            />
-          </div>
-          <div class="p-5 sapce-y-3">
-            <h3 class="text-sm font-semibold text-sky-500">Laravel</h3>
-            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
-              Desarrollo de una API con Laravel siguiendo la especificación
-              JSON:API
-            </h2>
-            <p class="hidden text-slate-500 md:block">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              eaque officiis doloremque quisquam impedit! Quae molestias quidem
-              hic adipisci numquam laboriosam tempora aliquam dicta? Accusamus
-              recusandae vero quae modi! Natus?
-            </p>
-          </div>
-          <div class="flex space-x-2 p-5">
-            <img
-              class="h-10 w-10 rounded-full"
-              src="https://ui-avatars.com/api?name=Ilde Rios"
-              alt="Jorge García"
-            />
-            <div class="flex flex-col justify-center">
-              <span class="text-sm font-semibold text-slate-600 leading-4"
-                >Ilde Rios</span
-              >
-              <span class="text-sm text-slate-500">Sept 07, 2024 </span>
-            </div>
-          </div>
-        </article>
-        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
-          <div class="h-52 flex-1">
-            <img
-              class="h-full w-full object-cover object-center"
-              src="/Imagenes/article-4.jpg"
-              alt="Desarrollo de una API con Laravel siguiendo la especificación
-            JSON:API"
-            />
-          </div>
-          <div class="p-5 sapce-y-3">
-            <h3 class="text-sm font-semibold text-sky-500">Laravel</h3>
-            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
-              Desarrollo de una API con Laravel siguiendo la especificación
-              JSON:API
-            </h2>
-            <p class="hidden text-slate-500 md:block">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              eaque officiis doloremque quisquam impedit! Quae molestias quidem
-              hic adipisci numquam laboriosam tempora aliquam dicta? Accusamus
-              recusandae vero quae modi! Natus?
-            </p>
-          </div>
-          <div class="flex space-x-2 p-5">
-            <img
-              class="h-10 w-10 rounded-full"
-              src="https://ui-avatars.com/api?name=Ilde Rios"
-              alt="Jorge García"
-            />
-            <div class="flex flex-col justify-center">
-              <span class="text-sm font-semibold text-slate-600 leading-4"
-                >Ilde Rios</span
-              >
-              <span class="text-sm text-slate-500">Sept 07, 2024 </span>
-            </div>
-          </div>
-        </article>
-        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
-          <div class="h-52 flex-1">
-            <img
-              class="h-full w-full object-cover object-center"
+              class="h-100 w-100 object-cover object-center"
               src="/Imagenes/article-1.jpg"
               alt="Desarrollo de una API con Laravel siguiendo la especificación
             JSON:API"
@@ -248,11 +178,89 @@
             </div>
           </div>
         </article>
-        <article class="bg-white shadow rounded overflow-hidden flex flex-col">
+        <article
+          class="bg-white shadow rounded overflow-hidden flex flex-col hover:drop-shadow-lg hover:-translate-y-1"
+        >
           <div class="h-52 flex-1">
             <img
-              class="h-full w-full object-cover object-center"
-              src="/Imagenes/article-6.jpg"
+              class="h-100 w-100 object-cover object-center"
+              src="/Imagenes/article-2.jpg"
+              alt="Desarrollo de una API con Laravel siguiendo la especificación
+            JSON:API"
+            />
+          </div>
+          <div class="p-5 sapce-y-3">
+            <h3 class="text-sm font-semibold text-sky-500">Laravel</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Desarrollo de una API con Laravel siguiendo la especificación
+              JSON:API
+            </h2>
+            <p class="hidden text-slate-500 md:block">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              eaque officiis doloremque quisquam impedit! Quae molestias quidem
+              hic adipisci numquam laboriosam tempora aliquam dicta? Accusamus
+              recusandae vero quae modi! Natus?
+            </p>
+          </div>
+          <div class="flex space-x-2 p-5">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Ilde Rios"
+              alt="Jorge García"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Ilde Rios</span
+              >
+              <span class="text-sm text-slate-500">Sept 07, 2024 </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="bg-white shadow rounded overflow-hidden flex flex-col hover:drop-shadow-lg hover:-translate-y-1"
+        >
+          <div class="h-52 flex-1">
+            <img
+              class="h-100 w-100 object-cover object-center"
+              src="/Imagenes/article-1.jpg"
+              alt="Desarrollo de una API con Laravel siguiendo la especificación
+            JSON:API"
+            />
+          </div>
+          <div class="p-5 sapce-y-3">
+            <h3 class="text-sm font-semibold text-sky-500">Laravel</h3>
+            <h2 class="text-xl font-semibold text-slate-800 leading-tight">
+              Desarrollo de una API con Laravel siguiendo la especificación
+              JSON:API
+            </h2>
+            <p class="hidden text-slate-500 md:block">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              eaque officiis doloremque quisquam impedit! Quae molestias quidem
+              hic adipisci numquam laboriosam tempora aliquam dicta? Accusamus
+              recusandae vero quae modi! Natus?
+            </p>
+          </div>
+          <div class="flex space-x-2 p-5">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="https://ui-avatars.com/api?name=Ilde Rios"
+              alt="Jorge García"
+            />
+            <div class="flex flex-col justify-center">
+              <span class="text-sm font-semibold text-slate-600 leading-4"
+                >Ilde Rios</span
+              >
+              <span class="text-sm text-slate-500">Sept 07, 2024 </span>
+            </div>
+          </div>
+        </article>
+        <article
+          class="bg-white shadow rounded overflow-hidden flex flex-col hover:drop-shadow-lg hover:-translate-y-1"
+        >
+          <div class="h-52 flex-1">
+            <img
+              class="h-100 w-100 object-cover object-center"
+              src="/Imagenes/article-2.jpg"
               alt="Desarrollo de una API con Laravel siguiendo la especificación
             JSON:API"
             />
@@ -289,10 +297,10 @@
     <!-- Contenedor principal del pie de página -->
     <footer class="py-10">
       <div
-        class="flex flex-col items-center space-y-4 md-flex-row md:justify-between max-w-6xl mx-auto md:space-y-0"
+        class="flex flex-col items-center space-y-4 md-flex-row md:justify-between max-w-5xl mx-auto md:space-y-4"
       >
         <!-- Texto centrado que muestra el aviso de derechos reservados -->
-        <div class="text-cente text-sm text-slate-600">
+        <div class="text-center text-sm text-slate-600">
           2023 Aprendible All Rights Reserved
         </div>
         <!-- Contenedor para los iconos de redes sociales -->
